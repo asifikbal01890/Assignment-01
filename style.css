@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0% 18%;  
+}
+#header-text {
+    font-size: 70px;
+}
+
+.header-img{
+    background-image: url(image/header.jpg);
+    background-repeat: no-repeat;  
+}
+.text-center {
+     text-align: center;
+     padding: 8% 15%;
+     color: white;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 89, 89, 1);
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+}
