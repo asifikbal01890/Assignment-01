@@ -1,15 +1,16 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    padding: 0% 18%;  
+    padding: 0% 15%;  
 }
-#header-text {
+.text-center h1 {
     font-size: 70px;
 }
-
-.header-img{
-    background-image: url(image/header.jpg);
-    background-repeat: no-repeat;  
+#header-img01{
+    background-repeat: no-repeat; 
+    background-image: 
+    linear-gradient(to bottom, rgba(250, 250, 250, 0.146), rgba(14, 14, 14, 0.997)),
+    url('image/header.png');
 }
 .text-center {
      text-align: center;
@@ -23,4 +24,33 @@ body {
     padding: 15px 40px;
     border-radius: 5px;
     font-weight: 600;
+}
+.text-center-black{
+    text-align: center;
+    padding: 8% 15%;
+}
+#today {
+    font-size: 50px;
+    
+}
+.amount {
+    display: flex;
+}
+.amount h1 {
+    padding: 40px;
+    background-color: rgba(214, 208, 208, 0.234);
+    margin: 2%;
+}
+#select-amount {
+    border-radius: 5px;
+    color: orangered;
+    border: 2px solid orangered;
+    background-color: rgba(255, 68, 0, 0.078);
+}
+#other-amount {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.323);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.189);
+    margin-bottom: 40px;
 }
