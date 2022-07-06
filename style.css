@@ -91,3 +91,20 @@ body {
 #footer h1 {
     color: rgba(255, 89, 89, 1);
 }
+#email {
+   background-color: rgba(255, 244, 214, 1); 
+   padding-top: 60px;
+   padding-bottom: 60px;
+   padding-left: 120px;
+}  
+#email input {
+    width: 40%;
+    padding: 20px;
+    border: 0px solid;
+    font-size: 20px;
+}
+#subscribe {
+    background-color: rgba(255, 89, 89, 1);
+    color: white;
+    font-weight: 600;
+}
