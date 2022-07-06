@@ -29,6 +29,9 @@ body {
     text-align: center;
     padding: 8% 15%;
 }
+.donate-plan{
+    font-size: 50px;
+}
 #today {
     font-size: 50px;
     
@@ -53,4 +56,22 @@ body {
     color: rgba(0, 0, 0, 0.323);
     border-bottom: 1px solid rgba(0, 0, 0, 0.189);
     margin-bottom: 40px;
+}
+#fexible {
+    display: flex;
+}
+.common-fex {
+    padding: 30px;
+    text-align: justify;
+    margin: 10px;
+    border-radius: 10px;
+}
+#fexible-unit01 {
+    background-color: rgba(158, 224, 158, 0.243);   
+}
+#fexible-unit02 {
+    background-color: rgba(217, 127, 142, 0.172) ;
+}
+#fexible-unit03 {
+    background-color: rgba(255, 200, 0, 0.179);
 }
